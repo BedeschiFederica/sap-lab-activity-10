@@ -37,6 +37,11 @@ v1.0.0-20251128
       - setting up all services and broker with `docker compose up`
       - interacting with the API gateway as seen in previous labs
 - Documenting API in Event-Driven Architectures: [**AsyncAPI**](https://www.asyncapi.com/) initiative
+  - Kafka case
+    - [tutorial from AsyncAPI](https://www.asyncapi.com/docs/tutorials/kafka)
+    - [tutoria  from Kafka](https://www.confluent.io/de-de/events/kafka-summit-europe-2021/getting-started-with-asyncapi-how-to-describe-your-kafka-cluster/)
+    - [Terminology mapping](https://dalelane.co.uk/blog/?p=4219)
+
 
        
    
