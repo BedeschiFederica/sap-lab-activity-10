@@ -3,13 +3,12 @@ package ttt_lobby_service.infrastructure;
 import io.vertx.core.Vertx;
 import ttt_lobby_service.application.*;
 
-public class LobbyServiceMain {
+public class LobbyServiceNoDockerMain {
 
 	static final int LOBBY_SERVICE_PORT = 9001;
 	
-	static final String ACCOUNT_SERVICE_ADDRESS = "http://account-service:9000";
-	static final String GAME_SERVICE_CHANNELS_LOCATION = "broker:9092";
-
+	static final String ACCOUNT_SERVICE_ADDRESS = "http://localhost:9000";
+	static final String GAME_SERVICE_CHANNELS_LOCATION = "localhost:9092";
 
 	public static void main(String[] args) {
 		

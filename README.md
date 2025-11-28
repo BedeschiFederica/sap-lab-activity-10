@@ -5,7 +5,6 @@
 v1.0.0-20251128
 
 **Event-Driven Architectures and Microservices**
-- About specifying API in Event-Driven Architectures: [**AsyncAPI**](https://www.asyncapi.com/) initiative
 - Event store technology example: [**Apache Kafka**](https://kafka.apache.org/) 
   - "An open-source distributed event streaming platform" - [watching together this video intro](https://kafka.apache.org/intro)
   - [Background and Context](https://developer.confluent.io/faq/apache-kafka/architecture-and-terminology/)
@@ -37,6 +36,7 @@ v1.0.0-20251128
     - full TTT Game System
       - setting up all services and broker with `docker compose up`
       - interacting with the API gateway as seen in previous labs
+- Documenting API in Event-Driven Architectures: [**AsyncAPI**](https://www.asyncapi.com/) initiative
 
        
    

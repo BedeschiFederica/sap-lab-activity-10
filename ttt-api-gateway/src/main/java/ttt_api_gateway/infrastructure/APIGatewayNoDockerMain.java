@@ -8,15 +8,13 @@ import ttt_api_gateway.application.*;
  * Implementing a simple API Gateway for the TTT Game Server case study
  * 
  */
-public class APIGatewayMain {
+public class APIGatewayNoDockerMain {
 
 	static final int BACKEND_PORT = 8080;
 	
-	static final String ACCOUNT_SERVICE_ADDRESS = "http://account-service:9000";
-	static final String LOBBY_SERVICE_ADDRESS = "http://lobby-service:9001";
-	static final String GAME_SERVICE_ADDRESS = "http://game-service:9002";
-	
-	static final String GAME_SERVICE_CHANNELS_LOCATION = "broker:9092";
+	static final String ACCOUNT_SERVICE_ADDRESS = "http://localhost:9000";
+	static final String LOBBY_SERVICE_ADDRESS = "http://localhost:9001";
+	static final String GAME_SERVICE_CHANNELS_LOCATION = "locahlost:9092";
 
 	static final int METRICS_SERVER_EXPOSED_PORT = 9401;
 

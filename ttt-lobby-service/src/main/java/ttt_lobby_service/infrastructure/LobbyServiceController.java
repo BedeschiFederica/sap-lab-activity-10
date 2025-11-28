@@ -35,16 +35,14 @@ public class LobbyServiceController extends VerticleBase  {
 
 	static final String GAME_SERVICE_PATH = 	"/api/v1/games";
 
-	private String gameServiceAddress;
+	// private String gameServiceAddress;
 	private String gameServiceURI;
 	
 	/* Ref. to the application layer */
 	private LobbyService lobbyService;
 	
-	public LobbyServiceController(LobbyService service, int port, String gameServiceAddress) {
+	public LobbyServiceController(LobbyService service, int port) {
 		this.port = port;
-		this.gameServiceAddress = gameServiceAddress;
-		this.gameServiceURI = gameServiceAddress + GAME_SERVICE_PATH;
 		logger.setLevel(Level.INFO);
 		this.lobbyService = service;
 
