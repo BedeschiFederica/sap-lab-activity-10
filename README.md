@@ -47,6 +47,8 @@ v1.1.0-20251130
     - adding an event-driven controller
     - [TODO] implementing event sourcing
   - [TTT Game Service AsyncAPI spec](./ttt-game-service/doc/async-api-spec.yaml)
+    - including some main fields
+    - verified with [AsyncAPI Studio](https://studio.asyncapi.com/)
   - Creating new proxies in other services interacting with `ttt-game-service`
     - `ttt-lobby-service`
     - `ttt-api-gateway`
